@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Signup from './components/Signup.jsx'
 import Login from './components/Login.jsx'
 import Home from './components/Home.jsx'
+import Dashboard from './components/Dashboard.jsx'
 import {BrowserRouter, Route, Routes} from 'react-router'
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       </Routes>
       </BrowserRouter>
     </div>
+  
   )
+  
 }
 
 export default App
